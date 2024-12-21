@@ -7,6 +7,7 @@ int main(){
 
 cout << "TEST";
 cout << "siema";
+cout << "elo";
 
 
 
