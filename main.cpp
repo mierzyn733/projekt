@@ -183,8 +183,7 @@ void zamiana_jednostek(){
     cout << "--- Menu zamiany jednostek ---" << endl;
     cout << "Wybierz jednostke docelowa: " << endl << endl;
     cout << "1. m - metr" << endl;
-    cout << "2. ft - stopa" << endl;
-    cout << "3. mi - mila" << endl << endl;
+    cout << "2. ft - stopa" << endl << endl;
     cout << "Wprowadz numer opcji: ";
     cin >> wybor_drugiej;
 
@@ -197,14 +196,11 @@ void zamiana_jednostek(){
             cout << endl << wartosc_wprowadzana << " in to: " << wartosc_wprowadzana * 0.08 << " ft" << endl;
             }
             break;
-            case 3:{
-            cout << endl << wartosc_wprowadzana << " in to: " << wartosc_wprowadzana * 0.0000157828 << " mi" << endl;
-        }
-            break;
         }
 
+        }
         break;
-}
+
             case 7:{
         system("cls");
     cout << "--- Menu zamiany jednostek ---" << endl;
@@ -269,6 +265,34 @@ void zamiana_jednostek(){
             cout << endl << wartosc_wprowadzana << " ft to: " << wartosc_wprowadzana * 12 << " in" << endl;
             }
             break;
+        }
+
+        }
+        break;
+            case 11:{
+        system("cls");
+    cout << "--- Menu zamiany jednostek ---" << endl;
+    cout << "Wybierz jednostke docelowa: " << endl << endl;
+    cout << "1. m - metr" << endl;
+    cout << "2. in - cal" << endl << endl;
+    cout << "3. ft - stopa" << endl << endl;
+    cout << "Wprowadz numer opcji: ";
+    cin >> wybor_drugiej;
+
+        switch (wybor_drugiej){
+            case 1:{
+             cout << endl << wartosc_wprowadzana << " km to: " << wartosc_wprowadzana * 1000 << " m" << endl;
+            }
+            break;
+            case 2:{
+            cout << endl << wartosc_wprowadzana << " km to: " << wartosc_wprowadzana * 39370.08 << " in" << endl;
+            }
+            break;
+            case 3:{
+            cout << endl << wartosc_wprowadzana << " km to: " << wartosc_wprowadzana *  3280 << " ft" << endl;
+            }
+            break;
+         
         }
 
         }
