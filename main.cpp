@@ -204,7 +204,7 @@ void zamiana_jednostek(){
         }
 
         break;
-     }
+}
             case 7:{
         system("cls");
     cout << "--- Menu zamiany jednostek ---" << endl;
