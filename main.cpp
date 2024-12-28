@@ -50,7 +50,8 @@ void zamiana_jednostek(){
     cout << "6. in - cal" << endl;
     cout << "7. lb - funt" << endl;
     cout << "8. oz - uncja" << endl;
-    cout << "9. ft - stopa" << endl << endl;
+    cout << "9. ft - stopa" << endl;
+    cout << "10. mi - mila" << endl << endl;
     cout << "Wprowadz numer opcji: ";
     cin >> wybor_pierwszej;
 
@@ -87,7 +88,8 @@ void zamiana_jednostek(){
         cout << "--- Menu zamiany jednostek ---" << endl;
         cout << "Wybierz jednostke docelowa: " << endl << endl;
         cout << "1. in - cal" << endl;
-        cout << "2. ft - stopa" << endl << endl;
+        cout << "2. ft - stopa" << endl;
+        cout << "3. mi - mila" << endl << endl;
         cout << "Wprowadz numer opcji: ";
         cin >> wybor_drugiej;
 
@@ -100,6 +102,10 @@ void zamiana_jednostek(){
             cout << endl << wartosc_wprowadzana << " m to: " << wartosc_wprowadzana * 3.28 << " ft" << endl;
             }
             break;
+            case 3:{
+            cout << endl << wartosc_wprowadzana << " m to: " << wartosc_wprowadzana * 0.000621371192 << " mi" << endl;
+                break;
+            }
         }
 
         }
