@@ -183,7 +183,8 @@ void zamiana_jednostek(){
     cout << "--- Menu zamiany jednostek ---" << endl;
     cout << "Wybierz jednostke docelowa: " << endl << endl;
     cout << "1. m - metr" << endl;
-    cout << "2. ft - stopa" << endl << endl;
+    cout << "2. ft - stopa" << endl;
+    cout << "3. mi - mila" << endl << endl;
     cout << "Wprowadz numer opcji: ";
     cin >> wybor_drugiej;
 
@@ -196,9 +197,12 @@ void zamiana_jednostek(){
             cout << endl << wartosc_wprowadzana << " in to: " << wartosc_wprowadzana * 0.08 << " ft" << endl;
             }
             break;
+            case 3:{
+            cout << endl << wartosc_wprowadzana << " in to: " << wartosc_wprowadzana * 0.0000157828 << " mi" << endl;
+        }
+            break;
         }
 
-        }
         break;
 
             case 7:{
